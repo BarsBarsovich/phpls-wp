@@ -14,5 +14,15 @@
                 </ul>
             </div>
         </div>
+        <div class="events">
+            <?
+                $args = array(
+                    'theme_location' => 'aside',
+                );
+                wp_nav_menu($args);                
+            ?>
+            [ecs-list-events thumb='true']
+        </div>
     <? endif; ?>
+
 </div>

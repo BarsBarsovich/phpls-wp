@@ -15,7 +15,8 @@ function load()
 register_nav_menus(
     array(
         'topmenu' => 'Header menu',
-        'bottommenu' => 'Footer menu'
+        'bottommenu' => 'Footer menu',    
+        'aside' => 'aside'
     )
 );
 
